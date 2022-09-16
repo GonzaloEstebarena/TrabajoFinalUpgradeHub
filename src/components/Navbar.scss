@@ -1,0 +1,21 @@
+.navbar {
+  width:  100%;
+  display: flex;
+  // padding: 20px;
+  justify-content: center;
+  // align-items: center;
+  // position: absolute;
+  color: rgb(170, 225, 68);
+
+  a, button {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-family: fatter;
+    font-size: 3rem;
+  }
+}

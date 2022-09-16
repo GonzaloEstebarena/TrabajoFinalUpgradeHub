@@ -1,0 +1,25 @@
+.footer-container{
+  display:  flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  height: 5vh;
+  // padding: 40px 80px;
+  position: absolute;
+  bottom: 0;
+  width: 60vw;
+  a, button {
+    // box-shadow: white 0px 0px 6px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: rgb(238, 101, 101);
+    text-decoration: none;
+    font-family: fatty;
+    font-size: 1.7rem;
+  }
+}
